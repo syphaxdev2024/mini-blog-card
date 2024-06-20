@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'sora';
+    src: url("/assets/fonts/Sora/Sora-VariableFont_wght.ttf");
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAF9;
+    font-family: sora;
+}
+main{
+    width: 28%;
+    height: 62%;
+   
+    background-color: #FFFFFF;
+    border-radius: 4%;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+
+    display: flex;
+    justify-content: center;
+}
+
+main div.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 90%;
+ }
+main section.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main section.img img{
+    height: 85%;
+    width: 100%;
+   
+    border-radius: 9%;
+}
+main section.button {
+   height: 10%;
+   display: flex;
+    align-items: center;
+}
+main section button {
+    background: #cdaff0e0;
+    border: none;
+    color: #883AE1;
+    font-weight: bold;
+    border-radius: 20%;
+    height: 70%;
+    font-size: 12px;
+    width: 18%;
+}
+main section.Embracing h3{
+    color: #20293A;
+    font-size: 18px;
+
+}
+
+main section.Embracing p{
+    color: #6C727F;
+    font-size: 14px;
+
+}
+main section.span{
+    height: 13%;
+    width: max-content;
+    display: flex;
+    align-items: center;
+}
+span{
+    color: #6C727F;
+    font-size: 10px;
+
+}
+
+.separator {
+    width: 110%;
+    height: 1px;
+    background-color: #E5EAF0;
+    margin: 0 -5%;
+}
